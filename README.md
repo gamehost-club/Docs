@@ -18,15 +18,5 @@ products:
 ```
 
 ## Free products
-
-### gamehost-AutoMessages
-```yaml
-product_1:
-  name: 'gamehost-AutoMessages'
-  key: '9mc:om2z9aJECvbEaBzJJmozJ'
-```
-
-### gamehost-Commands
-```yaml
-todo: "todo"
-```
+[gamehost-AutoMessages](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-AutoMessages)
+[gamehost-Commands](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-Commands)
