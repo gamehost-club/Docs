@@ -6,6 +6,17 @@ If you have any questions or suggestions about gamehost, do not hesitate to cont
 ## Installation
 todo
 
+### GameHostLoader configuration
+```
+nickName: 'test'
+password: 'test123'
+
+products:
+  product_1:
+    name: 'test'
+    key: 'example`
+```
+
 ## Free products
 
 ### gamehost-AutoMessages
