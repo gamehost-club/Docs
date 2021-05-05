@@ -7,7 +7,7 @@ If you have any questions or suggestions about gamehost, do not hesitate to cont
 todo
 
 ### GameHostLoader configuration
-```
+```yaml
 nickName: 'test'
 password: 'test123'
 
