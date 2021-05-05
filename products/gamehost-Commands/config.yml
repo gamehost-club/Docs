@@ -1,0 +1,15 @@
+commands:
+  help:
+    name: 'help'
+    description: 'Custom help command'
+    aliases:
+      - 'pomoc'
+    messages:
+      - '&8>> &aHello World!'
+  svip:
+     name: 'svip'
+     description: 'Custom svip command'
+     aliases:
+       - 'supervip'
+     messages:
+       - '&8>> &aCustom message!'

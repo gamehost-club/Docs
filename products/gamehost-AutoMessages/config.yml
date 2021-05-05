@@ -1,0 +1,8 @@
+messages:
+  - '&2Example message &c1'
+  - '&3Example message &42'
+
+option:
+  prefix: '&8[&cINFO&8] '
+  suffix: '&a>> '
+  delay: 60 # time in seconds
