@@ -1,5 +1,7 @@
 # Docs
 
+[![Discord Badge](https://discordapp.com/api/guilds/757105576370241626/widget.png)](https://discord.gg/rGPqAhFW5B)
+
 ## Contact Us
 If you have any questions or suggestions about gamehost, do not hesitate to contact me at iunixpl2137@gmail.com or discord: Unix#1084. 
 
