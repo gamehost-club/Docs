@@ -1,0 +1,62 @@
+# BungeeCord
+showserver: true # Do you want to show the server from which the player was disconnected? (Before prefix)
+prefix: "&6NG &8>>&7" # Prefix of the message
+debug: true # Do you want to show global kick messages in the BungeeCord console?
+# List of players that can see the notifications from NetworkGuard and NetworkGuard-lobby (Applies to entire Network)
+# Keep in mind that the notifications are visible even before login (Try to secure your server with some kind of IP checking for your Administration)
+admins: [ "1381" ]
+
+# Bukkit
+
+# Allowed variables:
+# {CHK_ID} ID of a Check
+# {CHK_NAME} Name of a Check
+# {PLAYER} Username of a Player
+
+# One of the check is disabled by default on spigot(with BungeeCord set on true) (LOGIN_SEQ),
+# causes some false checks on the *second* server on which the player joins
+# Should be set to true if the server is a "Lobby" or the server is set to default(forced host) in BungeeCord config.
+supressBungeeFix: false
+
+# Can we show check name to Administration? (Works only with a BungeeCord messenger)
+# If set to false instead of the name there will be a ID of the check
+showCheckName: true
+
+kicks:
+  enabled: true # Do you want to kick players on detection? if false the chat will spam with bot detection messages
+  # Kick message displayed to player on kick
+  # (Not recommended to use {CHK_NAME} in the kick message)
+  kickMessage: "&8>> &6NetworkGuard &8<<\n&cYou have been marked as bot!\n&f{CHK_ID}"
+
+anticrash:
+  enabled: true # Do you want to use NetworkGuard AntiCrash system?
+
+  packets: # Settings used by AntiCrash Packets module.
+    creative:
+      # TODO
+      # Clearing custom nbt tags from items gathered by Creative Inventory
+      # (Protects against world corrupting exploits).
+      clearNBT: true
+
+    payload:
+      mojangfix: true # Applying Mojang 1.9+ payload fix, (Book edited too quickly) on 1.8 servers.
+
+    # Size limit for packets, if not provided will use the 'default' value.
+    # Must be greater than 'ignore' value.
+    size-limit:
+      PacketPlayInCustomPayload: 16000
+      ignore: 250 # Ignore threshold (if less than value)
+      max: 17000 # Max threshold (if more than value = disconnect)
+
+  entity: # Settings used by AntiCrash Entity module.
+    # List of limits. Not provided entities will not be limited.
+    limits-per-chunk:
+      armorstand: 15 # ArmorStand limit - a huge loophole in most minecraft servers, can massively overload the server.
+
+modules:
+  # PING_VAL - Checks the player ping for some invalid ID
+  # BOT_ALGORITHM - Checks common actions performed by bots
+  # MOVEMENT_VAL - Checks movement for some Irregularity
+  # PACKET_CONF - Made to confuse programmers of bots - Sending a random (useless) packets during login and game process
+  # LOGIN_SEQ - Checking default minecraft login sequence (Some bots doesn't care about that)
+  enabledModules: [ "PING_VAL", "BOT_ALGORITHM", "MOVEMENT_VAL", "PACKET_CONF", "LOGIN_SEQ" ]

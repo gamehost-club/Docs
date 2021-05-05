@@ -19,9 +19,10 @@ products:
     key: 'example`
 ```
 
-## Free products
+## Products
 
 Project | Description
 --- | ---
 [gamehost-AutoMessages](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-AutoMessages) | gamehost-AutoMessages is a plugin that allows you to send various on chat notifications to all players.
 [gamehost-Commands](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-Commands) | gamehost-Commands is a plugin that allows you to add different commands to your server.
+[gamehost-NetworkGuard](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-NetworkGuard) | ?

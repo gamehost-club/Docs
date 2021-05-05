@@ -4,7 +4,7 @@ gamehost-AutoMessages is a plugin that allows you to send various on chat notifi
 
 ## GameHostLoader configuration
 ```yaml
-product_1:
+gamehost_AutoMessages:
   name: 'gamehost-AutoMessages'
   key: '9mc:om2z9aJECvbEaBzJJmozJ'
 ```
