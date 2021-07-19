@@ -1,3 +1,10 @@
+# -------------------------------------------------
+# gamehost-AutoMessages configuration
+# DON'T DELETE THOSE VALUES
+#
+# Author: GameHost
+# -------------------------------------------------
+
 messages:
   - '&2Example message &c1'
   - '&3Example message &42'

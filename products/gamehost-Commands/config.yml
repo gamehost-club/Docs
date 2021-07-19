@@ -1,3 +1,10 @@
+# -------------------------------------------------
+# gamehost-Commands configuration
+# DON'T DELETE THOSE VALUES
+#
+# Author: GameHost
+# -------------------------------------------------
+
 commands:
   help:
     name: 'help'

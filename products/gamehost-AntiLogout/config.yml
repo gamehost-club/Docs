@@ -1,0 +1,28 @@
+# -------------------------------------------------
+# gamehost-AntiLogout configuration
+# DON'T DELETE THOSE VALUES
+#
+# Author: GameHost
+# -------------------------------------------------
+
+# Dostępne zmienne: {PLAYER}, {TIME}, {FORMAT}.
+messages:
+  player-quit-combat: '&cGracz &4{PLAYER} &cwylogowal sie podczas walki.'
+  player-use-enderchest: '&8>> &cNie mozesz otwierac enderchesta podczas walki!'
+  actionbar-message: '&eANTY-LOGOUT &7{TIME} &7[{FORMAT}&7]'
+  disallow-command: '&8>> &cNie mozesz wykonac tej komendy podczas walki.'
+  block-building-below-y-during-combat: '&8>> &cNie mozesz budowac od 30 kratki podczas walki!'
+  combat-end: '&8>> &aWalka zostala zakonczona, mozesz sie wylogowac :)'
+
+options:
+  player-quit-combat-alert: true # Włącza/wyłącza pokazywanie wiadomości, że gracz wyszedł z serwera podczas walki, patrz: messages#player-quit-combat.
+  player-use-enderchest: true # Włącza/wyłącza możliwość używania enderchesta podczas walki.
+  combat-time: 30 # Ile ma trwać walka - czas w sekundach.
+  actionbar-format: ':' # Symbol czasu na ActionBarze.
+  colour-start: '&a'
+  colour-end: '&8'
+  disallowed-commands: # Lista zablokowanych komend podczas walki
+    - '/spawn'
+    - '/home'
+  block-building-below-y-during-combat: 30 # Od którego, bloku ma być zablokowane budowanie podczas walki, 0 = wyłączona blokada.
+  combat-end: 'SUBTITLE' # Dostępne zmienne: SUBTITLE, ACTIONBAR, CHAT, NONE - Gdzie ma pokazywać informacje o zakończeniu walki.
