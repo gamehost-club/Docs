@@ -8,7 +8,7 @@
 # Dostępne zmienne: {EFFECT_NAME}, {COST}
 messages:
   has-purchased: '&aZakupiles efekt &2{EFFECT_NAME}&a, gratulacje!'
-  not-enough: '&cNie posiadasz wystarczajaco emeraldow &7(&4{COST}&7)!'
+  not-enough: '&cNie posiadasz wystarczajaco emeraldow &7x&4{COST}&c!'
 
 # Dostępne wielkości gui do gui-size:
 # ONE_LINE, TWO_LINE, THREE_LINE, FOUR_LINE, FIVE_LINE, SIX_LINE
@@ -37,4 +37,29 @@ gui:
       duration: 60 # Czas w sekundach
       amplifier: 1 # Moc efektu, 0 = 1, 1 = 2, 2 = 3, etc.
   slots: # Sloty do wypełnienia, jeśli puste zrób: slots: [], przykład slotu: id;materiał;data
+    - '1;STAINED_GLASS_PANE;15'
     - '2;STAINED_GLASS_PANE;15'
+    - '3;STAINED_GLASS_PANE;15'
+    - '4;STAINED_GLASS_PANE;15'
+    - '5;STAINED_GLASS_PANE;15'
+    - '6;STAINED_GLASS_PANE;15'
+    - '7;STAINED_GLASS_PANE;15'
+    - '8;STAINED_GLASS_PANE;15'
+    - '9;STAINED_GLASS_PANE;15'
+    - '10;STAINED_GLASS_PANE;15'
+    - '11;STAINED_GLASS_PANE;15'
+    - '12;STAINED_GLASS_PANE;15'
+    - '13;STAINED_GLASS_PANE;15'
+    - '14;STAINED_GLASS_PANE;15'
+    - '15;STAINED_GLASS_PANE;15'
+    - '16;STAINED_GLASS_PANE;15'
+    - '17;STAINED_GLASS_PANE;15'
+    - '18;STAINED_GLASS_PANE;15'
+    - '19;STAINED_GLASS_PANE;15'
+    - '20;STAINED_GLASS_PANE;15'
+    - '21;STAINED_GLASS_PANE;15'
+    - '22;STAINED_GLASS_PANE;15'
+    - '23;STAINED_GLASS_PANE;15'
+    - '24;STAINED_GLASS_PANE;15'
+    - '25;STAINED_GLASS_PANE;15'
+    - '26;STAINED_GLASS_PANE;15'
