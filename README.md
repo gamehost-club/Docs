@@ -9,7 +9,7 @@
 
 ## Installation
 Aby użyć GameHostLoader należy go pobrać ze strony [code.gamehost.club](https://code.gamehost.club) Oraz wrzucić go do folderu `plugins`.
-Jeżeli chcesz użyc jakiegokolwiek darmowego pluginu użyj któregokolwiek z linku poniżej, w `README.md` znajdziesz dane do pliku konfiguracyjnego, które musisz podać w `config.yml` GameHostLoadera. Jeżeli nie posiadasz zakupionego pluginu, a chcesz użyć darmowego pluginu użyj konfiguracji poniżej:
+Jeżeli chcesz użyć jakiegokolwiek darmowego pluginu na samym dole znajdują się linki do konfiguracji danego pluginu. W `README.md` znajdziesz dane do pliku konfiguracyjnego, które musisz podać w `config.yml` GameHostLoadera. Jeżeli nie posiadasz zakupionego pluginu, a chcesz użyć darmowego pluginu użyj konfiguracji poniżej:
 ```yaml
 nickName: 'ha6'
 password: 'free'
