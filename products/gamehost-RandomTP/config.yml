@@ -16,7 +16,7 @@ options:
   max-x: 2000 # Maksymalna wartość X
   min-z: -2000 # Minimalnwa wartość Z
   max-z: 2000 # Maksymalna wartość Z
-  display-type: 'SUBTITLE' # Gdzie mają pojawiać się komunikaty od RandomTP
+  display-type: 'SUBTITLE' # Dostępne zmienne: SUBTITLE, ACTIONBAR, CHAT, NONE - Gdzie mają pojawiać się komunikaty od RandomTP
   check-location-is-safe: true # Włącza/wyłącza sprawdzanie czy miejsce jest bezpieczne patrz: messages#invalid-location
   distance: 5 # Odległość kratek od której ma łapać graczy grupowe RandomTP
   items: # Itemy, które gracz dostaje po przeteleportowaniu się
