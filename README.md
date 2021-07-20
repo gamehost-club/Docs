@@ -8,7 +8,7 @@
 **PL:** Jeśli masz jakiekolwiek pytania lub sugestie dotyczące projektu gamehost, nie wahaj się skontaktować ze mną na email: iunixpl2137@gmail.com lub discord: Unix#1084.
 
 ## Installation
-Aby użyć GameHostLoader należy go pobrać ze strony [code.gamehost.club](https://code.gamehost.club) Oraz wrzucić go do folderu `plugins`.
+Aby użyć GameHostLoader należy go pobrać ze strony [code.gamehost.club](https://code.gamehost.club) oraz wrzucić go do folderu `plugins`.
 Jeżeli chcesz użyć jakiegokolwiek darmowego pluginu na samym dole znajdują się linki do konfiguracji danego pluginu. W `README.md` znajdziesz dane do pliku konfiguracyjnego, które musisz podać w `config.yml` GameHostLoadera. Jeżeli nie posiadasz zakupionego pluginu, a chcesz użyć darmowego pluginu użyj konfiguracji poniżej:
 ```yaml
 nickName: 'ha6'
