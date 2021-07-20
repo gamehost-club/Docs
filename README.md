@@ -4,6 +4,7 @@
 
 ## Contact Us
 **EN:** If you have any questions or suggestions about gamehost, do not hesitate to contact me at iunixpl2137@gmail.com or discord: Unix#1084.
+
 **PL:** Jeśli masz jakiekolwiek pytania lub sugestie dotyczące projektu gamehost, nie wahaj się skontaktować ze mną na email: iunixpl2137@gmail.com lub discord: Unix#1084.
 
 ## Installation
