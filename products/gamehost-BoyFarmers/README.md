@@ -1,6 +1,6 @@
 # gamehost-BoyFarmers
 
-gamehost-BoyFarmers - todo
+Ten plugin pozwala na dodanie "BoyFarmerów" na twój serwer.
 
 ## GameHostLoader configuration
 ```yaml

@@ -1,6 +1,6 @@
 # gamehost-Effects
 
-gamehost-Effects
+Ten plugin pozwala na zakup efektów pod komendą "/efekty".
 
 ## GameHostLoader configuration
 ```yaml

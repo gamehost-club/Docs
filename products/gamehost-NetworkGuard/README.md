@@ -1,6 +1,6 @@
 # gamehost-NetworkGuard
 
-gamehost-NetworkGuard
+NetworkGuard jest zaawansowanym AntiBotem na twój serwer Minecraft.
 
 ## GameHostLoader configuration
 ```yaml

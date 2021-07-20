@@ -1,6 +1,6 @@
 # gamehost-Generators
 
-gamehost-Generators
+Ten plugin pozwala na dodanie generatora kamienia na twój serwer.
 
 ## GameHostLoader configuration
 ```yaml
