@@ -12,13 +12,13 @@ todo
 
 ### GameHostLoader configuration
 ```yaml
-nickName: 'test'
-password: 'test123'
+nickName: 'your-nickname'
+password: 'your-password'
 
 products:
-  product_1:
-    name: 'test'
-    key: 'example`
+  product-1:
+    name: 'product-name'
+    key: 'your-key`
 ```
 
 ## Products
