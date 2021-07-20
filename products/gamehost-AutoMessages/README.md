@@ -4,7 +4,7 @@ Ten plugin pozwala na dodanie automatycznych wiadomości na twój serwer.
 
 ## GameHostLoader configuration
 ```yaml
-gamehost_AutoMessages:
+gamehost-AutoMessages:
   name: 'gamehost-AutoMessages'
   key: '9mc:om2z9aJECvbEaBzJJmozJ'
 ```
