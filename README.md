@@ -26,3 +26,8 @@ Project | Description
 [gamehost-AutoMessages](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-AutoMessages) | gamehost-AutoMessages is a plugin that allows you to send various on chat notifications to all players.
 [gamehost-Commands](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-Commands) | gamehost-Commands is a plugin that allows you to add different commands to your server.
 [gamehost-NetworkGuard](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-NetworkGuard) | ?
+[gamehost-AntiLogout](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-AntiLogout) | ?
+[gamehost-BoyFarmers](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-BoyFarmers) | ?
+[gamehost-Effects](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-Effects) | ?
+[gamehost-Generators](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-Generators) | ?
+[gamehost-Vanish](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-Vanish) | ?
