@@ -5,6 +5,7 @@
 # Author: GameHost
 # -------------------------------------------------
 
+# Lista materiałów: https://helpch.at/docs/1.8/org/bukkit/Material.html
 # Dostępne zmienne: {EFFECT_NAME}, {COST}
 messages:
   has-purchased: '&aZakupiles efekt &2{EFFECT_NAME}&a, gratulacje!'

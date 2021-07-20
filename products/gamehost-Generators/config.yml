@@ -5,6 +5,7 @@
 # Author: GameHost
 # -------------------------------------------------
 
+# Lista materiałów: https://helpch.at/docs/1.8/org/bukkit/Material.html
 options:
   material: 'ENDER_STONE' # Materiał z którego ma być stworzona stoniarka
   name: '&6&lStoniarka' # Nazwa stoniarki
