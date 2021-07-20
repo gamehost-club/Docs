@@ -1,0 +1,61 @@
+# -------------------------------------------------
+# gamehost-BoyFarmers configuration
+# DON'T DELETE THOSE VALUES
+#
+# Author: GameHost
+# -------------------------------------------------
+
+# Lista materiałów: https://helpch.at/docs/1.8/org/bukkit/Material.html
+
+boyfarmers:
+  obsidian-farmer:
+    material: 'ENDER_PORTAL_FRAME' # Materiał z którego ma być stworzony BoyFarmer
+    name: '&6BoyFarmer' # Nazwa BoyFarmera
+    lore: # Opis BoyFarmera
+      - '&aPostaw na ziemi, aby zbudowal sie Obsydian do bedrocku.'
+    set-material: 'OBSIDIAN' # Material, który ma budować BoyFarmer
+    add-recipe: true # Czy ma dodać możliwość craftowania BoyFarmera z schematu poniżej
+    recipe: # Wygląd craftingu: https://i.imgur.com/aVMp4oF.png
+      1: 'OBSIDIAN'
+      2: 'OBSIDIAN'
+      3: 'OBSIDIAN'
+      4: 'OBSIDIAN'
+      5: 'LAVA_BUCKET'
+      6: 'OBSIDIAN'
+      7: 'OBSIDIAN'
+      8: 'OBSIDIAN'
+      9: 'OBSIDIAN'
+  sand-farmer:
+    material: 'ENDER_PORTAL_FRAME' # Materiał z którego ma być stworzony BoyFarmer
+    name: '&6SandFarmer' # Nazwa BoyFarmera
+    lore: # Opis BoyFarmera
+      - '&aPostaw na ziemi, aby zbudowal sie Piasek do bedrocku.'
+    set-material: 'SAND' # Material, który ma budować BoyFarmer
+    add-recipe: true # Czy ma dodać możliwość craftowania BoyFarmera z schematu poniżej
+    recipe: # Wygląd craftingu: https://i.imgur.com/aVMp4oF.png
+      1: 'SAND'
+      2: 'SAND'
+      3: 'SAND'
+      4: 'SAND'
+      5: 'LAVA_BUCKET'
+      6: 'SAND'
+      7: 'SAND'
+      8: 'SAND'
+      9: 'SAND'
+  air-farmer:
+    material: 'ENDER_PORTAL_FRAME' # Materiał z którego ma być stworzony BoyFarmer
+    name: '&6Kopacz' # Nazwa BoyFarmera
+    lore: # Opis BoyFarmera
+      - '&aPostaw na ziemi, aby zniszczyl bloki do bedrocku.'
+    set-material: 'AIR' # Material, który ma budować BoyFarmer
+    add-recipe: true # Czy ma dodać możliwość craftowania BoyFarmera z schematu poniżej
+    recipe: # Wygląd craftingu: https://i.imgur.com/aVMp4oF.png
+      1: 'STONE'
+      2: 'STONE'
+      3: 'STONE'
+      4: 'STONE'
+      5: 'DIAMOND_PICKAXE'
+      6: 'STONE'
+      7: 'STONE'
+      8: 'STONE'
+      9: 'STONE'
