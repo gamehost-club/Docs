@@ -43,3 +43,4 @@ Project | Description
 [gamehost-BoyFarmers](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-BoyFarmers) | Ten plugin pozwala na dodanie "BoyFarmerów" na twój serwer.
 [gamehost-Generators](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-Generators) | Ten plugin pozwala na dodanie generatora kamienia na twój serwer.
 [gamehost-Vanish](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-Vanish) | Ten plugin pozwala na dodanie "vanisha" na twój serwer.
+[gamehost-RandomTP](https://github.com/gamehost-club/Docs/tree/main/products/gamehost-RandomTP) | Ten plugin pozwala na dodanie "RandomTP" na twój serwer.
